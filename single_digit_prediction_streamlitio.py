@@ -2,8 +2,8 @@ import streamlit as st
 from fastai.vision.all import *
 import pathlib
 
-temp = pathlib.PosixPath
-pathlib.PosixPath = pathlib.WindowsPath
+# temp = pathlib.PosixPath
+# pathlib.PosixPath = pathlib.WindowsPath
 
 # to run: open terminal and type 'streamlit run streamlit_tutorial.py'
 # rapid prototyping (for educational purposes)
